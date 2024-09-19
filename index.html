@@ -123,25 +123,14 @@
                                 <br><br>
                                 <!-- Email address input-->
                                 <label for="nombre">Correo:*</label>
-                                    <input type="text" name="correo" id="correo"  required="">
-                                
+                                <input type="email" id="email" pattern=".+@example\.com" size="30" required />
                                     <br><br>
-                                <label for="mensaje">Mensaje:</label>
+                                <label for="mensaje">Mensaje:*</label>
                                 <br>
                                 <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
                                 <br><br>
                                 <!--Boton de Enviar-->
                                 <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button></div>
-                                <!-- Codigo Validador Comentado: Submit success message
-                                <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center mb-3">
-                                        <div class="fw-bolder">¡Registro Completo!</div>
-                                    </div>
-                                </div>
-                                Submit error message
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar registro!</div></div>
-                                -->
                                 <br><br>
                             </form>
                         </form>
